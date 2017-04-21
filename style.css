@@ -1,0 +1,149 @@
+body	{
+	font-family: Georgia, Times, Times, serif;
+	margin: none;
+	background-image: url("C:\\git\\Basic-Portfolio\\Assets\\Images\\cloth.png");
+		}
+
+h1 {position: relative;
+	bottom:41px;
+	display: inline-block;
+	text-align: center; 
+	width: 275px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	color: white;
+	height:60px;
+	background-color: #4aaaa5;  
+	margin-left: 80px;
+
+	}
+
+nav, a {
+	position: static;
+	font-weight: bold;
+	right: 8em;
+	bottom: 3em;
+	text-decoration: none;
+	color: #666;
+	list-style-type:none;
+}
+
+h2 { color: #4aaaa5;
+		 }
+
+h3 {
+	color: #4aaaa5;
+		}
+
+
+header {
+	position: static;
+	background-color:white;
+	margin:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	height:80px;
+	border-style: solid;
+	border-width: 2px;
+	}
+
+nav {
+	float: right;
+	}
+
+section {
+	position: relative;
+	border-style: solid;
+	border-width: 2px;
+	padding: 20px;
+	margin: 20px;
+	display: inline-block;
+	width: 650px;
+	background-color: #ffffff;
+}
+
+aside {
+	position:relative;
+	left: 50em; 
+	bottom: 34em;
+	width: 270px;
+	height: 170px;
+	border-style: solid;
+	border-width: 2px;
+	margin: 20px;
+	display: inline-block;
+	text-align: center;
+	background-color: white;
+}
+
+li {
+	position: relative;
+	left: 110px;
+	top: 60px;
+	display: inline;
+}
+
+
+footer {
+	border-top: solid;
+	border-top-width: 10px;
+	border-color: #4aaaa5;
+	padding-top: 20px;
+	background-color: #666;
+	color: white;
+	text-align: center;
+	height: 60px;
+	}
+
+.container {
+	display: block;
+	width: 960px;
+	height: 700px;
+	}
+
+.box2 {
+	position: relative;
+	bottom: 310px;
+	right: 80px;
+}
+
+.box3 {
+	position: relative;
+	bottom: 1210px;
+	right: 80px;
+}
+
+.form1 {
+	border-style: solid;
+	border-width: 4px;
+	max-width: 50%;
+}
+
+.image-container {
+	border-style: solid;
+	border-width: 4px;
+	max-width: 50%;
+}
+
+#port {
+	position: relative;
+	top: -22px;
+	left: 70px;
+}
+
+@media screen and (max-width: 980px) {
+	body {
+		background-color: #333;
+		}
+
+	
+@media screen and (max-width: 768px) {
+	body {
+		background-color: #333;
+		}
+
+	
+@media screen and (max-width: 640px) {
+	body {
+		background-color: #333;
+		}
